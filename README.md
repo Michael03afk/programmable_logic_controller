@@ -1,11 +1,13 @@
 # programmable_logic_controller
 designed and implemented beginner level parking management system on plc platform
-1. Problem Statement
+ Problem Statement
    
 In modern urban areas, efficient management of parking spaces is a major challenge. Manual monitoring of parking availability often leads to congestion, time wastage, and inefficient utilization of space. The problem is to design an automated parking system that can monitor vehicle entry and exit, maintain a count of available slots, and control gate operations accordingly.
 
 The system should ensure that vehicles are only allowed entry when parking space is available and prevent overcapacity. A PLC-based control system is used to automate this process using sensors, counters, and logic control.
-2. Solution / Methodology
+
+Solution / Methodology
+
 Step 1: Vehicle Detection – Entry and exit sensors detect vehicles.
 Step 2: Signal Processing – Signals are sent to PLC.
 Step 3: Entry Logic – If space available, open entry gate and increment count.
@@ -16,8 +18,7 @@ Step 7: Full Condition – If full, entry gate remains closed.
 Step 8: Simulation – Implemented using PLC software like Codesys or LogixPro.
 Step 9: Monitoring – Display available slots.
 
-
-4. FLOW CHART
+FLOW CHART
  
 <img width="900" height="332" alt="image" src="https://github.com/user-attachments/assets/796c43fd-d59a-4f3d-9774-ae4164e8d36a" />
 
